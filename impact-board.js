@@ -1,4 +1,4 @@
-<script>
+
 
 /*Bar-Chart: PLANTED TREES CUM*/
 
@@ -75,10 +75,6 @@ const chart = new Chart(ctx, {
     }
 });
 
-</script>
-
-
-<script>
 
 /* Seedpods CHART*/
 
@@ -140,9 +136,6 @@ const mixedChart1 = new Chart(ctx_seedpods, {
     }
 });
 
-</script>
-
-<script>
 
 /*LINE: CLIMATE OFFSET*/
 const labelarray1 = [];
@@ -198,10 +191,7 @@ const mixedChart = new Chart(ctx_offset, {
     }
 });
 
-</script>
 
-
-<script>
 
 /* DONUT: EMPOWERED CHILDREN*/
 
@@ -250,9 +240,6 @@ const chart = new Chart(ctx, {
 })();
 
 
-</script>
-
-<script>
 
 const labelarray_school = [];
 const datapointarray_school = [];
@@ -303,9 +290,6 @@ const mixedChart_schools = new Chart(ctx_schools, {
     }
 });
 
-</script>
-
-<script>
 
 /*BAR: LESSONS GIVEN*/
 
@@ -348,5 +332,3 @@ const chart_educationgiven = new Chart(ctx_educationgiven, {
     }
 });
 
-
-</script>

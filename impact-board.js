@@ -1,4 +1,4 @@
-
+<script>
 
 /*Bar-Chart: PLANTED TREES CUM*/
 
@@ -332,3 +332,4 @@ const chart_educationgiven = new Chart(ctx_educationgiven, {
     }
 });
 
+</script>

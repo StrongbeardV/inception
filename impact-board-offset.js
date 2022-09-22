@@ -20,15 +20,15 @@ $('.datapoint-item-carbon-offset-cum').each(function() {
 
 const ctx_offset = document.getElementById('carbon-offset-line').getContext('2d');
 const mixedChart = new Chart(ctx_offset, {
-		
+
     data: {
         datasets: [{
         		type: 'line',
             label: 'Carbon Offset cumulative',
             //borderDash: [5, 5],
-            data: datapointarray_carbon_cum, 
+            data: datapointarray_carbon_cum,
             backgroundColor: 'white',
-            borderColor: '#49654C', 
+            borderColor: '#49654C',
             borderWidth: 3
         }, {
         		type: 'bar',
@@ -37,10 +37,10 @@ const mixedChart = new Chart(ctx_offset, {
             backgroundColor: [
                 'rgb(164,117,124)',
             ],
-            borderColor: 'black', 
+            borderColor: 'black',
             borderWidth: 1
        }],
-       labels: labelarray,
+       labels: labelarray1,
     },
     options: {
     		tension: 0.5,

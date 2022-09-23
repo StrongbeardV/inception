@@ -51,3 +51,44 @@ const mixedChart = new Chart(ctx_offset, {
         }
     }
 });
+
+/*BAR: LESSONS GIVEN*/
+
+const labelarray_educationgiven = [];
+const datapointarray_educationgiven = [];
+
+$('.data-item-month-educationlessons').each(function() {
+const labelitem = $(this).text();
+labelarray_educationgiven.push(labelitem);
+});
+
+$('.datapoint-item_education-given').each(function() {
+const datapointitem = $(this).text();
+datapointarray_educationgiven.push(datapointitem);
+});
+
+const ctx_educationgiven = document.getElementById('lessons_given').getContext('2d');
+const chart_educationgiven = new Chart(ctx_educationgiven, {
+type: 'bar',
+data: {
+labels: labelarray_educationgiven,
+datasets: [{
+label: 'Bar Chart Climate Impact Inception LIVE',
+data: datapointarray_educationgiven,
+backgroundColor: [
+'rgb(255, 99, 132)',
+],
+borderColor: [
+'#333333',
+],
+hoverOffset: 4
+}]
+},
+options: {
+scales: {
+y: {
+beginAtZero: true
+}
+}
+}
+});

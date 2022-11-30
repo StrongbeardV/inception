@@ -331,5 +331,3 @@ const mixedChart_schools = new Chart(ctx_schools, {
         }
     }
 });
-
-

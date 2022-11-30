@@ -18,8 +18,8 @@ $('.datapoint_1SC_carbon-offset-cum').each(function() {
     datapointarray_1SC_carbon_cum.push(datapointitem1);
 });
 
-const ctx_offset_new = document.getElementById('carbon-offset-new').getContext('2d');
-const mixedChart = new Chart(ctx_offset_new, {
+const ctx_carbon_new = document.getElementById('carbon-offset-new').getContext('2d');
+const mixedChart = new Chart(ctx_carbon_new, {
 
     data: {
         datasets: [{

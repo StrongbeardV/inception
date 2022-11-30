@@ -19,7 +19,7 @@ $('.datapoint_1SC_carbon-offset-cum').each(function() {
 });
 
 const ctx_offset = document.getElementById('carbon-offset-new').getContext('2d');
-const mixedChart = new Chart(ctx_offset, {
+const mixedChart = new Chart(ctx_offset_new, {
 
     data: {
         datasets: [{

@@ -73,7 +73,7 @@ $('.datapoint_s_carbon-offset-cum').each(function() {
 });
 
 const ctx_carbon_school_monthly = document.getElementById('carbon-offset-schools-monthly').getContext('2d');
-const mixedChart1 = new Chart(ctx_school_monthly, {
+const mixedChart1 = new Chart(ctx_carbon_school_monthly, {
 
     data: {
         datasets: [{

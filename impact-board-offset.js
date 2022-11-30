@@ -122,8 +122,8 @@ $('.datapoint-item-trees-total-cum').each(function() {
     datapointarray_tree_cum.push(datapointitem);
 });
 
-const ctx = document.getElementById('trees-planted-cum').getContext('2d');
-const chart = new Chart(ctx, {
+const ctx_trees = document.getElementById('trees-planted-cum').getContext('2d');
+const chart_planted_trees = new Chart(ctx_trees, {
     type: 'bar',
     data: {
         labels: labelarray_tree,

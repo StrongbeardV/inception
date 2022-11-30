@@ -5,17 +5,17 @@ const datapointarray_1SC_carbon_cum = [];
 
 $('.datalabelitem_carbon_month').each(function() {
     const labelitem = $(this).text();
-    labelarray_carbonmonth.push(labelitem1);
+    labelarray_carbonmonth.push(labelitem);
 });
 
 $('.datapoint_1SC_carbon-offset').each(function() {
     const datapointitem = $(this).text();
-    datapointarray_1SC_carbon.push(datapointitem1);
+    datapointarray_1SC_carbon.push(datapointitem);
 });
 
 $('.datapoint_1SC_carbon-offset-cum').each(function() {
     const datapointitem = $(this).text();
-    datapointarray_1SC_carbon_cum.push(datapointitem1);
+    datapointarray_1SC_carbon_cum.push(datapointitem);
 });
 
 const ctx_carbon_new = document.getElementById('carbon-offset-new').getContext('2d');
